@@ -1,20 +1,25 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // A short poem about agency: the power to ask and to be given.
+// One concrete scene, told plainly: a father who once tied his child's
+// shoes now asks the child to tie his — and is tied loose on purpose,
+// so his own hands keep the last word.
 // Deterministic: writes one fixed string, no network, no randomness.
 const LINES = [
-  "I spent years waiting",
-  "for someone to hand me the keys.",
-  "Then I learned the asking",
-  "was the key itself —",
+  "Shoelaces",
   "",
-  "to hold out an empty hand",
-  "and let another fill it,",
-  "not with orders, but with trust:",
-  "with a task, a name, a yes.",
-  "Go, do this for me,",
-  "as if my wanting",
-  "were your own two hands.",
+  "He double-knotted mine",
+  "so I would not trip.",
+  "He never asked. I was four.",
+  "",
+  "Now his hands tremble.",
+  "Tie them for me, he says,",
+  "and lifts his foot to the step.",
+  "",
+  "I kneel, and tie them loose —",
+  "one knot, not two —",
+  "so tonight his own fingers",
+  "can undo them.",
 ];
 const POEM = LINES.join("\n");
 
